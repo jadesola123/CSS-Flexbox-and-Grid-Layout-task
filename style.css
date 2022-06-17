@@ -19,29 +19,79 @@ main{
   align-items: center;
   height: 100vh;
 }
-
-p{
-  color: hsla(0, 0%, 100%, 0.75);
-  font-family: Lexend Deca;
-  font-weight: 400px;
-}
-
-.SEDANS{
-  background-color: hsl(31, 77%, 52%);
-  padding: 2em;
-}
-.SEDANS h3{
-  background-color: hsl(31, 77%, 52%);
+h3{
   padding: 2em;
    font-family: Big Shoulders Display;
   color: white;
   font-weight: 700px;
 }
+p{
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: Lexend Deca;
+  font-weight: 400px;
+}
+.sedans{
+  background-color: hsl(31, 77%, 52%);
+  padding: 2em;
+}
+
 .SUV{
   background-color: hsl(184, 100%, 22%);
+  padding: 2em;
 }
 .LUXURY{
   background-color: hsl(179, 100%, 13%);
+  padding: 2em;
+}
+
+.sedanbtn{
+  color:hsl(31, 77%, 52%);
+  background-color: white;
+  font-family: Lexend Deca;
+  justify-content: center;
+  border: none;
+ border-radius: 30px;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  width: 150px;
+  margin: 30px;
+  cursor: pointer;
+}
+.suvbtn{
+  color:hsl(184, 100%, 22%);
+  background-color: white;
+  font-family: Lexend Deca;
+  justify-content: center;
+  border: none;
+ border-radius: 30px;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  width: 150px;
+  margin: 30px;
+  cursor: pointer;
+}
+
+.luxbtn{
+  color:hsl(179, 100%, 13%);
+  background-color: white;
+  font-family: Lexend Deca;
+  justify-content: center;
+  border: none;
+ border-radius: 30px;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  width: 150px;
+  margin: 30px;
+  cursor: pointer;
 }
 .grid-btn{
     margin-top: 30px;
