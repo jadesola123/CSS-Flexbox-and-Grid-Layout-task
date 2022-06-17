@@ -1,4 +1,58 @@
-html, body {
-  height: 100%;
-  width: 100%;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+body{
+    background-color: hsl(0, 0%, 95%);
+    display: flex;
+    place-items: center;
+    height: 100vh;
+  Font-size: 15px;
+}
+
+main{
+  width: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+p{
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: Lexend Deca;
+  font-weight: 400px;
+}
+
+.SEDANS{
+  background-color: hsl(31, 77%, 52%);
+  padding: 2em;
+}
+.SEDANS h3{
+  background-color: hsl(31, 77%, 52%);
+  padding: 2em;
+   font-family: Big Shoulders Display;
+  color: white;
+  font-weight: 700px;
+}
+.SUV{
+  background-color: hsl(184, 100%, 22%);
+}
+.LUXURY{
+  background-color: hsl(179, 100%, 13%);
+}
+.grid-btn{
+    margin-top: 30px;
+    background-color: black;
+}
+.grid-btn a:link {
+    background-color: brown;
+    color: white;
+    padding: 10px 25px;
+    
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
