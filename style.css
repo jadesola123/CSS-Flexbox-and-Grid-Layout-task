@@ -101,27 +101,18 @@ p{
   margin: 30px;
   cursor: pointer;
 }
-.grid-btn{
+ .grid-btn{
     margin-top: 30px;
-    background-color:brown;
-   margin-left: 40px;
-   position:absolute;
-     top:0;
-     text-align: center;
-  left:0;
-  margin-right: 0px;
-}
-.grid-btn a:link {
-    background-color: burlywood;
-    color: white;
-    padding: 10px 25px;
-     position:absolute;
-     top:0;
-    left:0;
-    text-align: center;
+    background-color:burlywood;
+color:black;
+  margin-left: 40px;
     text-decoration: none;
-    display: inline-block;
-  }
+  margin-right: 0px;
+      position:absolute;
+   padding:20px;
+     top:0;
+  left:0;
+}
 
 
   @media (min-width: 375px) {
@@ -132,22 +123,13 @@ p{
 
   .grid-btn{
     margin-top: 30px;
-    background-color:brown;
+    background-color:burlywood;
+color:black;
   margin-left: 40px;
+    text-decoration: none;
   margin-right: 0px;
       position:absolute;
      top:0;
   left:0;
 }
-.grid-btn a:link {
-    background-color: burlywood;
-    color: white;
-    padding: 10px 25px;
-    position:absolute;
-     top:0;
-    left:0;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-  }
 }
