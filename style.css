@@ -3,24 +3,30 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body{
     background-color: hsl(0, 0%, 95%);
     display: flex;
     place-items: center;
     height: 100vh;
-  Font-size: 15px;
+    Font-size: 15px;
 }
 
 main{
-  width: 50%;
+  width: 40%;
   margin: auto;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
+  flex-direction: column;
+}
+img{
+  padding: 1.5em;
+  
 }
 h3{
-  padding: 2em;
+  padding: 1.5em;
    font-family: Big Shoulders Display;
   color: white;
   font-weight: 700px;
@@ -29,19 +35,21 @@ p{
   color: hsla(0, 0%, 100%, 0.75);
   font-family: Lexend Deca;
   font-weight: 400px;
+  padding: 1.5em;
 }
 .sedans{
   background-color: hsl(31, 77%, 52%);
-  padding: 2em;
+  padding: 1em;
+  flex-direction: column;
 }
 
 .SUV{
   background-color: hsl(184, 100%, 22%);
-  padding: 2em;
+  padding: 1em;
 }
 .LUXURY{
   background-color: hsl(179, 100%, 13%);
-  padding: 2em;
+  padding: 1em;
 }
 
 .sedanbtn{
@@ -51,7 +59,7 @@ p{
   justify-content: center;
   border: none;
  border-radius: 30px;
-  padding: 20px;
+  padding: 1em;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -67,7 +75,7 @@ p{
   justify-content: center;
   border: none;
  border-radius: 30px;
-  padding: 20px;
+  padding: 1em;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -84,7 +92,7 @@ p{
   justify-content: center;
   border: none;
  border-radius: 30px;
-  padding: 20px;
+  padding: 1em;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -95,14 +103,51 @@ p{
 }
 .grid-btn{
     margin-top: 30px;
-    background-color: black;
+    background-color:brown;
+   margin-left: 40px;
+   position:absolute;
+     top:0;
+     text-align: center;
+  left:0;
+  margin-right: 0px;
 }
 .grid-btn a:link {
-    background-color: brown;
+    background-color: burlywood;
     color: white;
     padding: 10px 25px;
-    
+     position:absolute;
+     top:0;
+    left:0;
     text-align: center;
     text-decoration: none;
     display: inline-block;
   }
+
+
+  @media (min-width: 375px) {
+
+  main{
+    flex-direction: row;
+  }
+
+  .grid-btn{
+    margin-top: 30px;
+    background-color:brown;
+  margin-left: 40px;
+  margin-right: 0px;
+      position:absolute;
+     top:0;
+  left:0;
+}
+.grid-btn a:link {
+    background-color: burlywood;
+    color: white;
+    padding: 10px 25px;
+    position:absolute;
+     top:0;
+    left:0;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+}
